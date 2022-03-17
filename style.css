@@ -1,0 +1,100 @@
+body{
+	margin:0;
+	padding:0;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#SingleBoxWapper{
+	overflow: hidden;
+	background:#ddd;
+	color:white;
+	padding:10px;
+	width: 250px;
+	font-weight:bold;
+	text-align:center;
+	border:1px solid #ddd;
+	border-radius:5px;
+	position:relative;
+	height: 230px;
+	margin: 60px 0px;
+	float: left;
+	margin-right: 17px;
+}
+div#SingleBoxWapper a {
+    text-decoration: none;
+    color: white;
+    background: #4c4a4a;
+    text-align:center;
+    padding: 35px 40px;
+    position:absolute;
+    top: 0;
+    left: 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    visibility:hidden;
+    opacity:0;
+    transition: .5s;
+    transform: translateY(100px);
+}
+.SingleBox {margin-top: 20px;}
+
+#SingleBoxWapper:hover a{
+	visibility:visible;
+	opacity:1;
+	transform: translateY(0px);
+}
+.SingleBox i {
+    font-size: 35px;
+}
+
+.SingleBox h2 {
+    font-family: arial;
+    color: #777;
+}
+
+.SingleBox p {
+    font-family: arial;
+    color: #827f7f;
+    font-size: 16px;
+}
+.SingleBox a h4 {
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.SingleBox a h5 {
+    font-size: 16px;
+    font-family: arial;
+}
+button#learnMoreBtn {
+    background: #ff5200;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 158px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: 1px solid #ff5200;
+    border-radius: 3px;
+}
+.learnMoreContants {
+    float: left;
+}
+
+.learnMoreIcon {
+    width: 30px;
+    float: left;
+}
+
+.learnMoreIcon i {
+    font-size: 20px;
+    margin-top: 3px;
+}
+div#SingleBoxWapper:last-child {
+    margin-right: 0;
+}
